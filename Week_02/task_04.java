@@ -1,7 +1,7 @@
 public class LegoContainers {
     public static void main(String[] args) {
-        int amountOfBricks = 77;  // Number of Lego bricks (odd number)
-        int containerCapacity = 8; // Each container can hold 6 bricks (even number)
+        int amountOfBricks = 77;  
+        int containerCapacity = 8; 
 
         int fullContainers = amountOfBricks / containerCapacity;
         int totalContainers = (amountOfBricks % containerCapacity == 0) ? fullContainers : fullContainers + 1;
